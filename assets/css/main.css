@@ -128,55 +128,6 @@ a.contact-me:active,.btn-submit:active{
 /*--------------------------------------------------------------
 # Left Side
 --------------------------------------------------------------*/
-@media (max-width: 800px) {
-    section{
-        padding: 30px 20px 30px 20px;
-        animation: fadeup 0.8s;
-        position: relative;
-    }
-    
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .left-side{
-        order: 2;
-        flex: 100%;
-        margin: 40px 40px 40px 40px!important;
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-    }
-    
-    .introduction,.download,.social-icon{
-        margin: 0px 0px 0px 0px!important;
-    }
-
-    .right-side{
-        flex: 100%;
-        margin: 40px 0px 0px 0px!important;
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items: center;
-    }
-    form{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 90%!important;
-    }
-    
-    .form-group{
-        width: 80%!important;
-    }
-    
-    .input-group{
-        width: 80%!important;
-    }
-  }
 
 .left-side{
     flex: 70%;
@@ -394,4 +345,84 @@ input,select,textarea{
 .btn-submit{
     margin-top: 20px;
     transition: 0.5s;
+}
+
+@media (max-width: 820px) {
+    header{
+        padding: 5px 50px 5px 50px;
+    }
+
+    section{
+        padding: 30px 20px 30px 20px;
+        animation: fadeup 0.8s;
+        position: relative;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-side{
+        order: 2;
+        flex: 100%;
+        margin: 40px 40px 40px 40px!important;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    .introduction,.download,.social-icon{
+        margin: 0px 0px 0px 0px!important;
+    }
+
+    .right-side{
+        flex: 100%;
+        margin: 40px 0px 0px 0px!important;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    form{
+        width: 90%!important;
+    }
+    
+    .form-group{
+        width: 80%!important;
+    }
+    
+    .input-group{
+        width: 80%!important;
+    }
+  }
+
+@media (min-width: 823px) and (max-width: 1199.98px) {
+    .left-side{
+        flex: 70%;
+        margin: 40px 10px 40px 40px!important;
+    }
+
+    .introduction,.download,.social-icon{
+        margin: 0px 0px 0px 0px!important;
+    }
+
+    .right-side{
+        flex: 30%;
+        margin: 40px 40px 40px 10px!important;
+    }
+
+    form{
+        width: 90%!important;
+    }
+    
+    .form-group{
+        width: 80%!important;
+    }
+    
+    .input-group{
+        width: 80%!important;
+    }
+
 }
